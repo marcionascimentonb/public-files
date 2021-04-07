@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LanguageSchool.exe" version="1.0.0.4" publicKeyToken="02f9d9184be40bbd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="canada-flag.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LanguageSchool" version="1.0.0.0" publicKeyToken="09B0FEC5E1E83C46" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LanguageSchool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanguageSchool.exe" size="443368">
+      <assemblyIdentity name="LanguageSchool" version="1.0.0.0" publicKeyToken="09B0FEC5E1E83C46" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tQcsaItAckRH7N36ioduwttW048t5EQFtX1qehYB6zw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="canada-flag.ico" size="28646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZBwhOiSmKBzhRMzEIepvkqihMYmucb73bwbr4vkWkSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="canada-flag2.ico" size="6590">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4c7cazj+F7LZhxFTMLWYc0JVLfxhqOoalDZVuu7GcSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\brands.css" size="732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UDkamHx7DSfBMv31dSSEUZyn8b0+V1spme2qQ1Gf0IE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\brands.min.css" size="675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wfbbsQFYKnizQi/WLPXS3wVDu0Dpi2yUQpZBDsb2H1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fontawesome.css" size="71035">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n8sGoNG7hDdiolElBavKIpNTj2p0s5WIrcR8gfWuqyo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fontawesome.min.css" size="57146">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CuUPKpitgFmSNQuPDL5cEfPOOJT/+bwUlhfumDJ9CI4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fontawesome-all.css" size="72670">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2SjB4U+w1reKQrhbbJOiQFARkAXA5CGoyk559PJeG58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\fontawesome-all.min.css" size="58578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\regular.css" size="734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8cGA4Mjbzm8At0GLeAKoBtfJ0WRltslRFEY3wnfC4Rk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\regular.min.css" size="677">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gMsb9FH68ht7+1zJa264ijXvTJotVJiDn+OCgWfuaOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\solid.css" size="727">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PjpWijCkeqxLcQyZpUwpNlDzQW8T0qWQPeX7qhCLdvQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\solid.min.css" size="669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pIAzc/BIIo/hSvtNEDIiMTBtR9EfK3COmnH2pt8cPDY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\svg-with-js.css" size="8077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PY72WO49SDyEIm6NyM3imAp5u5bRjtnenl+KEgHBQhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\svg-with-js.min.css" size="6359">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GyCVXSM0LI7EPORc9EWykRKWjlig49LoHPKt6s8NjBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\v4-shims.css" size="41312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lNBbGFkRZ/5rYw7DdGaRYXgNSnGBjxljNE+ozUCKSMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\v4-shims.min.css" size="26702">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wN7QJaqAwQ03kgUhyN4EU2phRdDkLrQYbFe0EvpQ60U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\course.png" size="1866">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p/HF4yqEmXzWGN2zQKofK4J7p0/yM9Nx/Nbbi0oYMMs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\enrollment.png" size="1356">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MhOtf0QRSyeVokrmj5EJY/oGCz9Dl2+zFVgqam1k76I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\info.png" size="11381">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K4pQ2cLpBnffLDVbH/m3LutGFakMdkC1Bl3lpdhe770=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\student.png" size="2254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sFdDC10soBBrZtjwXPnvVx+o50v/62PVbuYrWHIR6UM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LanguageSchool.exe.config" size="412">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9g7rEcljlyxDFeVmQWW1MmU3Pn5ixi7FNHL80y8IXAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\all.js" size="1237763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EhSd26A4BBY7cx1qenrGNmgTke2gzkGS0HDPmLVVQ6w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\all.min.js" size="1172040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\brands.js" size="440292">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8y0E+Qap+C4WmJHctwHVZrAdi5ajAVLl8WOdvZ+GEr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\brands.min.js" size="433156">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z0T3r+4uTjAkB5CHxybF9RQwAzHEdFB5+hJe/pGAcPg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\conflict-detection.js" size="33929">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pCyzjh+exDENrMxgR4C921559veH2o52DwG+UFfndYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\conflict-detection.min.js" size="13502">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vWyx9G/vjBdyP+7cJX+ixOo8lSK4ql3LCCCkGY8GM6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\fontawesome.js" size="79139">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zrud/hioxze9Q1aEUNes9uTrF4ym/CR0JCGvzcVZX9I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\fontawesome.min.js" size="37191">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NP9NujdEzS5m4ZxvNqkcbxyHB0dTRy9hG13RwTVBGwo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\regular.js" size="107110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IXRcgxA4iTPDp58IS9VNcBfLafg8JV51Pc/QIma1kdQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\regular.min.js" size="103386">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H0NvRuA8S2idTs4I6NzvHRkonlIQNO9wGutAM0//9YU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\solid.js" size="611780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JVfkaWI3V00bA4i7q0Vy+dxY8KwRAeuVRhH+B98VLCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\solid.min.js" size="598868">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UM1HRu0Wd16k4L5wgrk17BYWzKkjZSe0BYr5T5qw2Ww=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\v4-shims.js" size="17459">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vJyyTZ4GRs2U+l3L4fAxJGXBvFhi77lDJERkyqp1TAk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Scripts\fontawesome\v4-shims.min.js" size="15055">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>prFmieX9aRVhOV/ldXGklUUhS7NRBQUijQU4HcdnO8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="webfonts\fa-brands-400.svg" size="715890">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AjQLoXidCbzFB1Y8icSoR7pTe7gTIIJ3elBRnPdLy1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="webfonts\fa-regular-400.svg" size="144322">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hl/SPeE7GSAoDhgjWVeeCe/3oJ6yRnbs7sdVKDhVn1U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="webfonts\fa-solid-900.svg" size="897426">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>52hTmAh1f37sIPCcnumzaw5sVjbpDJ7ml5lcu8buBVU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CPPE9CI\marcio" issuerKeyHash="3db97f7ae20d3a3cd1c40b7bce1405039ebaf68c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jwQF8HaY7IQP8vT8/IappZDcrzJDdJWKtsZDPwtm4bE=</DigestValue></Reference></SignedInfo><SignatureValue>VOf6tURvfdQ8XwZTCUEwhd6EGOvGeTWOgJv5/PPoGL3VLN996uVM0BekiVwjC4vn3r9+YyP3HimSgn1LxBAPR0A05ESmf3B7ItFoRgFXWVSi3XClY706r9zbMu2mifGzH19r3QsQtqVZDMYzhFHXaVtR+ADZZ9XLBvvHe0hLUYE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mAtRH5VyZ/nNOcS1gmQp/gfCAPZW0DPPACF6ZCc+qrZPE46cN92oTxJ5ihKG/5Bi4qBvKcY0xb66PWXUue1nIXBvaSVk923RF5800SteXEFJTQJfV41310cYBWXoAwtcBBDmFsNm0dS+wZPzm6tVyq+Xlb9B1PDgJsWKc747jPk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b1e1660b3f43c6b68a95744332afdc90a5a986fcfcf4f20f84ec9876f005048f" Description="" Url=""><as:assemblyIdentity name="LanguageSchool.exe" version="1.0.0.4" publicKeyToken="02f9d9184be40bbd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CPPE9CI\marcio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0rYfteHghwVG42bOiAjwzC/HICSUK9uPQhh/uSi5PrE=</DigestValue></Reference></SignedInfo><SignatureValue>H2nAs8X9WXYHwqVdheOG6U6Lo59ywZc5Wu+FNZpsubZafJ7iewo1Zcdn7cq8d1ViqI+V4TCzQoShhyApkdLGhGhy4jjHKQaIHMgAZNtFLYOrP/5MKSSUY/yjI/EtQBsek8ZKt9B5bwqoKd8tPniUelW6hCVraPaIYkVBbLacJ+8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mAtRH5VyZ/nNOcS1gmQp/gfCAPZW0DPPACF6ZCc+qrZPE46cN92oTxJ5ihKG/5Bi4qBvKcY0xb66PWXUue1nIXBvaSVk923RF5800SteXEFJTQJfV41310cYBWXoAwtcBBDmFsNm0dS+wZPzm6tVyq+Xlb9B1PDgJsWKc747jPk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQdpIKkmVQM5BN/0PgC2mi0DANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEMAUABQAEUAOQBDAEkAXABtAGEAcgBjAGkAbzAeFw0yMDA1MjgxNzEzNDJaFw0yMTA1MjgyMzEzNDJaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQwBQAFAARQA5AEMASQBcAG0AYQByAGMAaQBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYC1EflXJn+c05xLWCZCn+B8IA9lbQM88AIXpkJz6qtk8Tjpw33ahPEnmKEob/kGLioG8pxjTFvro9ZdS57WchcG9pJWT3bdEXnzTRK15cQUlNAl9XjXfXRxgFZegDC1wEEOYWw2bR1L7Bk/Obq1XKr5eVv0HU8OAmxYpzvjuM+QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHLbzKbh+5fl1JFrXny2gzjU4ll0xI+d3WWjMFdMW5dBQ+PseVC+kImRgE4p/0croKd23yYVyWkVCWzIeW8C9i2oGbyzWLgxe5Q0d9mFF8mv188GGGkFscVBeITH4M+qCedgU4h6z1ZFoSqsmDDfEYxDfSRplYI8hmUjGj6yNQDK</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
