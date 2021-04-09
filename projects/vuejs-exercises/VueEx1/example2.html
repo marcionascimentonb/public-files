@@ -1,0 +1,99 @@
+<!-- 
+Some vue directives
+--------------------
+v-model: makes two-way binding between form input and app state
+
+v-bind: bind DOM element attributes
+
+v-for: render a list of items based on an array
+
+v-if: test condition 
+
+v-on:<nameOfTheEvent> . Ex: v-on:change , v-on:click
+
+@click: click handler
+
+computed property: to remove complex logic from 
+the template into a reactive method that is
+automatically bound to the vue data 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example 2</title>
+    <script src="products.js"></script>    
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th style="width:150px">Status</th>
+          <th></th>
+        </tr>
+
+        <tr v-for="product in products">
+          <td>{{product.name}}</td>
+          <td>{{product.qty}}</td>
+          <td>
+            <span v-if="product.qty <= 0"> OUT OF STOCK </span>
+          </td>
+          <td>
+            <button @click="product.qty +=1">Up</button>
+            <button @click="product.qty -=1">Down</button>            
+          </td>
+        </tr>
+      </table>
+
+      <h2>Total Invetory: {{ totalProducts }}</h2>
+
+      <div>
+        <select name="tesList" v-on:change="showMsg">
+            <option v-for="product in products"
+                    v-bind:value="product.id"
+            >{{product.name}}</option>
+        </select>
+        {{msg}}
+      </div>
+
+    </div>
+
+    <script>
+      const app = new Vue({
+        el: "#app", //el stands for element,
+
+        data: {
+          products: pList,
+          msg:''
+        },
+        computed: {
+          totalProducts() {
+            //The reduce() method reduces the array to a single value.
+            return this.products.reduce((sum, product) => {
+              if(product.qty>0)
+                return sum + product.qty;
+              else
+                return sum
+            }, 0);
+          },
+        },
+        methods: {
+            showMsg:function(e){
+              const select = e.target;
+              this.msg= 'combobox item changed to ' + select.value;
+            }
+          },
+
+      });
+    </script>
+  </body>
+</html>

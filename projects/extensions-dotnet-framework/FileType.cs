@@ -8,9 +8,9 @@ namespace MyProject.Models
 {
     public enum FileType
     {
-        [Display(Name = "Profile Image")]
+        [Display(Name = "Agent image")]
         Avatar = 1,
-        [Display(Name = "Pet Image")]
-        Pet
+        [Display(Name = "Listing image")]
+        Listing
     }
 }
